@@ -53,7 +53,7 @@ class _MortgageAppState extends State<MortgageApp> {
               decoration: BoxDecoration(
                   color: Colors.transparent,
                   border: Border.all(
-                      color: secondaryDeepPurple,//Theme.of(context).secondaryHeaderColor , //Colors.blueGrey.shade100, //TODO: theme this!
+                      color: secondaryDeepPurple,//Theme.of(context).secondaryHeaderColor , //Colors.blueGrey.shade100, //todo: theme this!
                       style: BorderStyle.solid
                   ),
                   borderRadius: BorderRadius.circular(12)),
@@ -80,7 +80,7 @@ class _MortgageAppState extends State<MortgageApp> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
-                        Text("Length of Loan (years)"), //TODO: Theme this!
+                        Text("Length of Loan (years)"), //todo: Theme this!
 
                         Row(
                           children: <Widget>[
@@ -108,7 +108,7 @@ class _MortgageAppState extends State<MortgageApp> {
                                 ),)),
                               ),
                             ),
-                            Text("$_lengthOfLoan"), //TODO: Style Theme it!
+                            Text("$_lengthOfLoan"), //todo: Style Theme it!
                             InkWell(
                               onTap: () {
                                 setState(() {
